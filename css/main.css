@@ -4,37 +4,44 @@ body {
 }
 
 .card {
-    background: linear-gradient(315deg,#FBAB7E,#F7CE68);
-    width: 400px;
-    height: fit-content;
+    background: linear-gradient(315deg, #FBAB7E, #F7CE68);
+    width: 100%;
+    max-width: 500px;
     margin: 50px auto;
     border-radius: 20px;
     overflow: hidden;
     padding: 30px;
     text-align: center;
-    box-shadow: 0 5px 25px rgba(0 0 0 / 40%);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
     font-size: 25px;
+    font-weight: bold;
     text-align: center;
 }
 
 p {
     font-size: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
-a {
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social a {
     font-size: 30px;
-    padding: 10px;
     text-align: center;
     text-decoration: none;
     color: #272727;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
 }
 
-a:hover {
+.social a:hover {
     color: white;
     transform: scale(1.1);
 }
